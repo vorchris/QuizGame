@@ -16,7 +16,7 @@ We welcome pull requests for bug fixes, new features, and improvements. To submi
 5. Create a pull request from your branch to the `master` branch of the main repository.
 
 ### Code of Conduct
-We expect all contributors to adhere to our [Code of Conduct](CODE_OF_CONDUCT.md). Please be respectful and considerate of others in all interactions related to the project.
+We expect all contributors to adhere to our [Code of Conduct](../CODE_OF_CONDUCT.md). Please be respectful and considerate of others in all interactions related to the project.
 
 ## References
 This project was developed with the guidance and contributions of Sir Hannes Klotz. His expertise and support have been invaluable in the creation of this application.
