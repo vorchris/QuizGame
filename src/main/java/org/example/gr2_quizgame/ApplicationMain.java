@@ -18,8 +18,8 @@ public class ApplicationMain extends Application {
     public void start(Stage stage) throws IOException
     {
         FXMLLoader fxmlLoader = new FXMLLoader(ApplicationMain.class.getResource("main-view.fxml"));
-        Scene scene = new Scene(fxmlLoader.load(), Screen.getPrimary().getBounds().getWidth(), Screen.getPrimary().getBounds().getHeight());
-        stage.setTitle("Helloo!");
+        Scene scene = new Scene(fxmlLoader.load(), 1920, 1080);
+        stage.setTitle("Quiz Game");
         stage.setScene(scene);
         stage.setFullScreen(true);
         stage.setMaximized(true);
@@ -29,6 +29,7 @@ public class ApplicationMain extends Application {
         Media media = new Media(musicFile);
         mediaPlayer = new MediaPlayer(media);
         mediaPlayer.setCycleCount(MediaPlayer.INDEFINITE);
+        mediaPlayer.setVolume(0.5);
         mediaPlayer.play();
     }
 

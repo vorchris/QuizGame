@@ -7,8 +7,6 @@ import javafx.scene.Scene;
 import javafx.scene.control.Button;
 import javafx.stage.Stage;
 
-import java.util.Objects;
-
 public class MainController {
     @FXML
     private Button bt_exit;
@@ -32,7 +30,6 @@ public class MainController {
 
         Stage stage = (Stage) bt_exit.getScene().getWindow();
         StageSwitcher.switchDifficulty(stage, difficulty);
-        Scene scene = stage.getScene();
     }
 
     @FXML

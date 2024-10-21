@@ -12,7 +12,7 @@ public class StageSwitcher {
 
     public static void switchDifficulty(Stage stage, Difficulty difficulty) {
         try {
-            FXMLLoader fxmlLoader = new FXMLLoader(StageSwitcher.class.getResource("question-view.fxml"));
+            FXMLLoader fxmlLoader = new FXMLLoader(StageSwitcher.class.getResource("/org/example/gr2_quizgame/question-view.fxml"));
             Scene scene = new Scene(fxmlLoader.load());
             stage.setScene(scene);
             stage.show();
@@ -25,7 +25,7 @@ public class StageSwitcher {
     public static void switchEndScreen(Stage stage, int points) {
         try {
             StageSwitcher.points = points;
-            FXMLLoader fxmlLoader = new FXMLLoader(StageSwitcher.class.getResource("end-view.fxml"));
+            FXMLLoader fxmlLoader = new FXMLLoader(StageSwitcher.class.getResource("/org/example/gr2_quizgame/end-view.fxml"));
             Scene scene = new Scene(fxmlLoader.load());
             stage.setScene(scene);
             stage.show();
@@ -36,7 +36,7 @@ public class StageSwitcher {
 
     public static void switchStartScreen(Stage stage) {
         try {
-            FXMLLoader fxmlLoader = new FXMLLoader(StageSwitcher.class.getResource("main-view.fxml"));
+            FXMLLoader fxmlLoader = new FXMLLoader(StageSwitcher.class.getResource("/org/example/gr2_quizgame/main-view.fxml"));
             Scene scene = new Scene(fxmlLoader.load());
             stage.setScene(scene);
             stage.show();

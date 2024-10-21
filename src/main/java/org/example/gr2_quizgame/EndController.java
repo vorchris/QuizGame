@@ -3,7 +3,6 @@ package org.example.gr2_quizgame;
 import javafx.application.Platform;
 import javafx.fxml.FXML;
 import javafx.fxml.Initializable;
-import javafx.scene.control.Button;
 import javafx.scene.control.Label;
 import javafx.stage.Stage;
 
@@ -23,6 +22,6 @@ public class EndController implements Initializable {
 
     @Override
     public void initialize(URL url, ResourceBundle resourceBundle) {
-        l_points.setText(String.valueOf(StageSwitcher.points));
+        l_points.setText("Points: " + StageSwitcher.points);
     }
 }

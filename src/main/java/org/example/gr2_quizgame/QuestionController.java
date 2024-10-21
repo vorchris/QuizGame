@@ -24,7 +24,6 @@ import java.util.ArrayList;
 import java.util.Objects;
 import java.util.Random;
 import java.util.ResourceBundle;
-import java.util.concurrent.atomic.AtomicInteger;
 
 import static java.util.Collections.shuffle;
 
@@ -134,9 +133,9 @@ public class QuestionController implements Initializable {
 
     public void setQuestion() {
         ArrayList<String> currentOptions = new ArrayList<>();
-        questionIndex = random.nextInt(0,questions.size());
+        questionIndex = random.nextInt(questions.size());
         l_Qu.setText(questions.get(questionIndex));
-        l_Qu.setTextFill(Color.WHITE);
+        l_Qu.setTextFill(Color.BLACK);
         String currentCorrectAnswer = options.get(questionIndex).get(correctAnswers.get(questionIndex )-1).toString();
         for (int i = 0; i < rb_grid.getChildren().size(); i++) {
             currentOptions.add(options.get(questionIndex).get(i).toString());
