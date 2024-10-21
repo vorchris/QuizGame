@@ -1,0 +1,56 @@
+root {
+    -fx-background-size: cover;
+    -fx-background-position: center center;
+}
+#l_points {
+    -fx-font-size: 20px;
+    -fx-font-weight: bold;
+    -fx-text-fill: #4CAF50;
+    -fx-background-color: #F0F0F0;
+    -fx-padding-left: 100px;
+    -fx-border-radius: 5px;
+    -fx-background-radius: 5px;
+    -fx-border-color: #4CAF50;
+    -fx-border-width: 2px;
+}
+
+#l_result {
+    -fx-font-size: 18px;
+    -fx-text-fill: #333333;
+    -fx-background-color: #E0E0E0;
+    -fx-padding: 8px;
+    -fx-border-radius: 5px;
+    -fx-background-radius: 5px;
+    -fx-border-color: #CCCCCC;
+    -fx-border-width: 1px;
+}
+
+#b_quit {
+    -fx-font-size: 16px;
+    -fx-font-weight: bold;
+    -fx-text-fill: white;
+    -fx-background-color: #F44336;
+    -fx-padding: 10px 20px;
+    -fx-border-radius: 5px;
+    -fx-background-radius: 5px;
+    -fx-cursor: hand;
+}
+
+#b_quit:hover {
+    -fx-background-color: #D32F2F;
+}
+
+#b_quit:pressed {
+    -fx-background-color: #B71C1C;
+}
+
+#l_er_punkte {
+    -fx-font-size: 18px;
+    -fx-text-fill: #333333;
+    -fx-background-color: #E0E0E0;
+    -fx-padding: 8px;
+    -fx-border-radius: 5px;
+    -fx-background-radius: 5px;
+    -fx-border-color: #CCCCCC;
+    -fx-border-width: 1px;
+}

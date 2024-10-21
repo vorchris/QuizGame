@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane prefHeight="600" prefWidth="700" stylesheets="@main-view.css" xmlns="http://javafx.com/javafx/17.0.2-ea" xmlns:fx="http://javafx.com/fxml/1" fx:controller="org.example.gr2_quizgame.MainController">
+      <Button fx:id="bt_normal" layoutX="256.0" layoutY="268.0" mnemonicParsing="false" onAction="#onDifficultyButtonPress" prefHeight="31.0" prefWidth="186.0" text="Normal" textAlignment="CENTER">
+      <font>
+         <Font name="System Bold" size="15.0" />
+      </font>
+   </Button>
+      <Button fx:id="bt_hard" layoutX="499.0" layoutY="268.0" mnemonicParsing="false" onAction="#onDifficultyButtonPress" prefHeight="31.0" prefWidth="186.0" text="Hard" textAlignment="CENTER">
+      <font>
+         <Font name="System Bold" size="15.0" />
+      </font>
+   </Button>
+
+      <Button fx:id="bt_easy" layoutX="14.0" layoutY="268.0" mnemonicParsing="false" onAction="#onDifficultyButtonPress" prefHeight="31.0" prefWidth="185.0" text="Easy" textAlignment="CENTER">
+      <font>
+         <Font name="System Bold" size="15.0" />
+      </font>
+   </Button>
+     <Button fx:id="bt_exit" layoutX="291.0" layoutY="394.0" mnemonicParsing="false" onAction="#onExitButtonPress" prefHeight="0.0" prefWidth="117.0" text="Exit" textAlignment="CENTER">
+      <font>
+         <Font name="System Bold" size="15.0" />
+      </font>
+   </Button>
+</AnchorPane>

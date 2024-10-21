@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane prefHeight="600" prefWidth="700" stylesheets="@end-view.css" xmlns="http://javafx.com/javafx/17.0.2-ea" xmlns:fx="http://javafx.com/fxml/1" fx:controller="org.example.gr2_quizgame.EndController">
+   <Label fx:id="l_result" layoutX="109.0" layoutY="145.0" prefHeight="45.0" prefWidth="243.0" text="Spiel ist zuende!" />
+   <Label fx:id="l_points" layoutX="382.0" layoutY="300.0" prefHeight="46.0" prefWidth="165.0" text="Punkteanzahl" />
+   <Button fx:id="b_quit" layoutX="309.0" layoutY="441.0" mnemonicParsing="false" onAction="#onExitButtonPress" text="Quit" />
+   <Label fx:id="l_er_punkte" layoutX="153.0" layoutY="301.0" text="Erreichte Punkte: " />
+</AnchorPane>

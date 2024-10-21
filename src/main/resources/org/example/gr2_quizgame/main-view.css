@@ -1,0 +1,82 @@
+.button {
+    -fx-font-size: 16px;
+    -fx-font-weight: bold;
+    -fx-padding: 10px 20px;
+    -fx-background-radius: 8px;
+    -fx-border-radius: 8px;
+    -fx-background-color: #4CAF50;
+    -fx-text-fill: white;
+    -fx-border-color: #388E3C;
+    -fx-border-width: 2px;
+    -fx-cursor: hand;
+}
+
+.button:hover {
+    -fx-background-color: #45A049;
+}
+
+.button:pressed {
+    -fx-background-color: #3E8E41;
+}
+
+#bt_easy {
+    -fx-background-color: #8BC34A;
+    -fx-border-color: #689F38;
+    -fx-effect: dropshadow(three-pass-box, lime, 30, 0, 0, 0);
+}
+
+#bt_easy:hover {
+    -fx-background-color: #7CB342;
+}
+
+#bt_easy:pressed {
+    -fx-background-color: #689F38;
+}
+
+#bt_normal {
+    -fx-background-color: #FF9800;
+    -fx-border-color: #F57C00;
+    -fx-effect: dropshadow(three-pass-box, orange, 30, 0, 0, 0);
+}
+
+#bt_normal:hover {
+    -fx-background-color: #FB8C00;
+}
+
+#bt_normal:pressed {
+    -fx-background-color: #EF6C00;
+}
+
+#bt_hard {
+    -fx-background-color: #F44336;
+    -fx-border-color: #D32F2F;
+    -fx-effect: dropshadow(three-pass-box, red, 30, 0, 0, 0);
+}
+
+#bt_hard:hover {
+    -fx-background-color: #E53935;
+}
+
+#bt_hard:pressed {
+    -fx-background-color: #C62828;
+}
+
+#bt_exit {
+    -fx-background-color: #535b5a;
+    -fx-border-color: #727c7b;
+    -fx-effect: dropshadow(three-pass-box, gray, 30, 0, 0, 0);
+}
+
+#bt_exit:hover {
+    -fx-background-color: #535b5a;
+}
+
+#bt_exit:pressed {
+    -fx-background-color: #535b5a;
+}
+
+.root {
+    -fx-background-size: cover;
+    -fx-background-position: center center;
+    -fx-background-color: #454545;
+}
